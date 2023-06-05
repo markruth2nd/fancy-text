@@ -15,3 +15,18 @@ h1{
     font-family: sans-serif;
     line-height: 100vh;
 }
+
+
+/* Below is where I can create some for of animation using the JS functions where I have added the spans to each individual text. The commented out parts will add movement to the text animation, currently the animation just adds colour in an animation */
+span{
+    /* opacity: 0;
+    transition: all 0.5s ease;
+    display: inline-block; */
+    transform: translateY(50px);
+}
+
+span.fade{
+    color: aqua;
+    /* opacity: 1;
+    transform: translateY(0px); */
+}
